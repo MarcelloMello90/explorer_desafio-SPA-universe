@@ -9,8 +9,6 @@
 
   --text-color-primary: hsla(240, 0%, 100%);
   --text-color-nav: hsla(240, 6%, 58%);
-
-
 }
 
 body{
@@ -21,7 +19,6 @@ body{
   font-size: 2rem;
   width: 100%;
   height: 720px;
-  
 
 }
 
@@ -118,6 +115,8 @@ button:hover{
   place-content: center;
   justify-content: center;
   align-items: center;
+  height: 530px;
+
 }
 
 .home{
@@ -128,6 +127,9 @@ button:hover{
   /* place-content: center; */
   margin: 0 auto;
   width: 390px;
+  height: 100%;
+
+
 }
 
 .btn{
