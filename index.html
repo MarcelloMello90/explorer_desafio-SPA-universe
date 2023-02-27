@@ -13,16 +13,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="heading">
-      <img src="./images/logo.svg" alt="imagem de uma galaxia">
+    <div class="container">
+
+      <header>
+        <img src="./images/logo.svg" alt="imagem de uma galaxia">
+        
+        <nav>
+          <a href="/" onclick="route()">Home</a>
+          <a href="/universe" onclick="route()">O Universo</a>
+          <a href="/explore" onclick="route()">Exploração</a>
   
-      <div class="nav">
-        <a href="/" onclick="route()">Home</a>
-        <a href="/about" onclick="route()">Sobre</a>
-        <a href="/contact" onclick="route()">Contact</a>
+        </nav>
+  
+      </header>
+      
+      
+      <div id="app"></div>
     </div>
-    
-    <div id="app"></div>
 
     <script src="js/index.js" type="module"></script>
   </body>
