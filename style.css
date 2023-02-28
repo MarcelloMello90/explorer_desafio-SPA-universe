@@ -56,18 +56,6 @@ nav a:hover{
   font-weight: 700;
 }
 
-h1{
-  display: grid;
-  align-items: flex-start;
-  padding: 0px;
-  place-content: center;
-
-  /* position: absolute; */
-  width: 399px;
-  /* height: 60px;
-  left: 440px; */
-  top: 294px;
-}
 
 button{
 display: flex;
@@ -122,17 +110,44 @@ button:hover{
 .home{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  /* place-content: center; */
-  margin: 0 auto;
-  width: 390px;
+  place-content: center;
+
   height: 100%;
 
+  width: 399px;
+
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  color: #E1E1E6;
 
 }
 
 .btn{
   display: grid;
   place-content: center;
+}
+
+
+h1{
+  font-weight: 700;
+  font-size: 48px;
+  
+  color: #E1E1E6;
+
+  margin-bottom: 16px;
+
+}
+
+p{
+  width: 648px;
+  font-size: 18px;
+  text-align: justify;
+  
+  line-height: 160%;
+  
+  color: #E1E1E6;
+  
 }
